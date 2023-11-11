@@ -67,11 +67,3 @@ searchButton.addEventListener("click", () => {
     curSelectedNav?.classList.remove("active");
     curSelectedNav = null;
 });
-//harsh
-fetch('your-api-endpoint')
-  .then(response => response.json())
-  .then(data => {
-    console.log('API Response:', data);
-    // Your code to process the data
-  })
-  .catch(error => console.error('API Error:', error));
